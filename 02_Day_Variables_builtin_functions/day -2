@@ -1,1 +1,128 @@
-
+print("Day 2: 30 Days of python programming")
+name="mahnoor"
+print(name)
+last_name='rizwan'
+print(last_name)
+full_name="mahnoor rizwan"
+print(full_name)
+country="pakistan"
+print(country)
+city="isb"
+print(city)
+age=24
+print(age)
+year=2026
+print(year)
+is_married="none"
+print(is_married)
+is_true="all of it"
+print(is_true)
+is_light_on="maybe"
+print(is_light_on)
+state,time,status="nyc",12,"present"
+print(state,time,status)
+print("ex-2")
+print("Day 2: 30 Days of python programming")
+name="mahnoor"
+print(name)
+print(type(name))
+last_name='rizwan'
+print(last_name)
+print(type(last_name))
+full_name="mahnoor rizwan"
+print(full_name)
+print(type(full_name))
+country="pakistan"
+print(country)
+print(type(country))
+city="isb"
+print(city)
+print(type(city))
+age=24
+print(age)
+type(age)
+print(type(age))
+year=2026
+print(year)
+print(type(year))
+is_married="none"
+print(is_married)
+print(type(is_married))
+is_true="all of it"
+print(is_true)
+print(type(is_true))
+is_light_on="maybe"
+print(is_light_on)
+print(type(is_light_on))
+state,time,status="nyc",12,15.09
+print(state,time,status)
+print(type(state),type(time),type(status))
+# part b
+name="mahnoor"
+print(len(name))
+# part c
+name="mahnoor"
+print(len(name))
+last_name="rizwan"
+print(len(last_name))
+if len(name) > len(last_name):
+  print("name has greater length")
+elif len(name) == len(last_name):
+  print("they equal")
+else:
+   print("name has less length")
+#part d
+num_one=5
+print(num_one)
+num_two=4
+print(num_two)
+#part e
+num_one=5
+num_two=4
+total=num_one+num_two
+print(total)
+#part f
+num_one=5
+num_two=4
+diff=num_one-num_two
+print(diff)
+#part g
+num_one=5
+num_two=4
+product=num_one*num_two
+print(product)
+#part h
+num_one=5
+num_two=4
+division=num_one/num_two
+print(division)
+#part i
+num_one=5
+num_two=4
+remainder=num_one%num_two
+print(remainder)
+#part j
+num_one=5
+num_two=4
+exp=num_one**num_two
+print(exp)
+#part k
+num_one=5
+num_two=4
+floor_division=num_one//num_two
+print(floor_division)
+#part l
+import math
+radius=30
+area=math.pi*radius
+print("area",area)
+#part m
+import math
+radius=30
+circumference=math.pi*radius*2
+print("circumference",circumference)
+#part n
+import math
+radius=float(input("the radius is"))
+result=math.pi*radius
+print(result)
