@@ -94,6 +94,7 @@ print('the area of the circle with radius {}is {}'.format(radius,area))
 a=8
 b=6
 c=8 + 6
+
 print("{} + {} = {}".format(a,b,c))
 
       print('{}-{}={}'.format(a,b,c))
