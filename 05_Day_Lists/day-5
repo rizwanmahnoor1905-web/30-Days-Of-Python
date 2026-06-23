@@ -1,0 +1,124 @@
+#day 5:30 days of python
+  #part 1
+  list=[]
+print(len(list))
+  #part 2
+  list=[1,2,3,4,5,6]
+print(list)
+  #part 3
+  list=[1,2,3,4,5,6]
+print(list)
+print(len(list))
+  #part 4
+  list=[1,2,3,4,5,6]
+item=list[0]
+item1=list[3]
+item2=list[len(list)-1]
+print(item,item1,item2)
+#part 5
+  mixed=['mahnoor',21,'none',345]
+print(mixed)
+#part 6
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print(companies)
+  #part 8
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print(len(companies)) 
+  #part 9
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+item=companies[0]
+item1=companies[4]
+item2=companies[6]
+print(item,item1,item2)
+  #part 10
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies[4]="open ai"
+print(companies)
+  #part 11
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.append('microsoft')
+print(companies)
+companies.insert(2,'SAP')
+print(companies)
+  #part 13
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies[0]=companies[0].upper()
+print(companies)
+  #part 14
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies='#'.join(companies)
+print(companies)
+  #part 15
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print ('Google' in companies)
+  #part 16
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.sort()
+print(companies)
+  #part 17
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+companies.sort()
+print(companies)
+companies.sort(reverse=True)
+print(companies)
+  #part 18
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+slice=companies[0:3]
+print(slice)
+  #part 19
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+slice=companies[-3:]
+print(slice)
+  #part 20
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+slice=companies[2:3]
+print(slice)
+  #part 21
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[0]
+print(companies)
+#part 22
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[4]
+print(companies)
+#part 23
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[6]
+print(companies)
+  #part 24
+  companies=['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+del companies[:]
+print(companies)
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+list=front_end+back_end
+print(list)
+  front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+list=front_end+back_end
+print(list)
+full_stack=list.copy()
+full_stack.insert(5,'python')
+full_stack.insert(5,'SQL')
+print(full_stack)
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
