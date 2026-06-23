@@ -1,0 +1,120 @@
+#part 1
+  string='thirty','days','of','python'
+print(' '.join(string))
+    #part 2
+    string='coding','for','all'
+print(' '.join(string))
+      #part 3
+      company='coding for all'
+      #part 4
+      print(company)
+      #part 5
+      print(len(company))
+      #part 6
+      print(company.upper())
+      #part 7
+      print(company.lower())
+      #part 8
+      company='coding for all'
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+      #part 9
+company='coding for all'
+slice=company[0:6]
+print(slice)
+      #part 10
+      company='coding for all'
+print(company.find('coding'))
+      #part 11
+      print(company.replace('coding','python'))
+      #part 12
+      company="python for everyone"
+print(company.replace('for everyone','for all'))
+       #part 13
+      company="python for everyone"
+print(company.split())
+      #part 14
+      company="Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(company.split(','))
+      #part 15
+      string='coding for all'
+print(string[0])
+      #part 16
+      string='coding for all'
+print(len(string)-1)
+      #part 17
+      string='coding for all'
+print(string[10])
+      #part 18
+      print("".join(word[0] for word in "Python For Everyone".split()))
+      #part 19
+      print("".join(word[0] for word in "Coding For All".split()))  
+      #part 20
+      print(text.index("C"))  
+      #part 21
+      print(text.index("F"))
+   #part 22
+      print("Coding For All People".rfind("l"))
+      #part 23
+      sentence = "You cannot end a sentence with because because because is a conjunction"
+print(sentence.find("because")
+      #part 24
+      print(sentence.rindex("because"))  
+      #part 25
+      print(sentence[31:54])
+      #part 26
+      print(text.startswith("Coding"))
+      #part 27
+      print(text.endswith("coding")) 
+      #part 28
+      print("   Coding For All      ".strip())
+      #part 29
+      text = "Coding For All"
+print(text.endswith("coding"))
+      #part 30
+      text = "   Coding For All      "
+print(text.strip())
+      #part 31
+      print("30DaysOfPython".isidentifier())
+print("thirty_days_of_python".isidentifier())
+      #part 32
+      libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print(" # ".join(libraries)
+      #part 33
+      print("I am enjoying this challenge.\nI just wonder what is next.")
+      #part 34
+      print('name\tage\tcountry\tcity\t')
+print('mahnoor\t21\tpakistan\tisb')
+      #part 35
+      radius = 10
+area = 3.14 * radius ** 2
+print('the area of the circle with radius {}is {}'.format(radius,area))
+      #part 36
+a=8
+b=6
+c=8 + 6
+print("{} + {} = {}".format(a,b,c))
+
+      print('{}-{}={}'.format(a,b,c))
+      print('{}*{}={}'.format(a,b,c))
+      print('{}/{}={}'.format(a,b,c))
+      print('{}%{}={}'.format(a,b,c))
+      print('{}//{}={}'.format(a,b,c))
+      print('{}**{}={}'.format(a,b,c))
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+      
+      
