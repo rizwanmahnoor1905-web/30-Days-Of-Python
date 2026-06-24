@@ -102,6 +102,36 @@ full_stack=list.copy()
 full_stack.insert(5,'python')
 full_stack.insert(5,'SQL')
 print(full_stack)
+#ex-2
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+print(ages)
+print(min(ages))
+print(max(ages))
+ages.append(min(ages))
+print(ages)
+ages.append(max(ages))
+print(ages)
+print(statistics.median(ages))
+median=sum(ages)/len(ages)
+print(median)
+print(max(ages) - min(ages))
+print(abs(min(ages) - average))
+print(abs(max(ages) - average))
+middle=len(countries)//2
+print(middle)
+print(countries[middle])
+print(countries[:middle])
+print(countries[middle:])
+list=['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+first_three=list[:3]
+print(first_three)
+scandic_countries=list[3:]
+print(scandic_countries)
+
+
+
 
   
   
