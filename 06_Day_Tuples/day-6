@@ -1,0 +1,49 @@
+tuple=()
+print(tuple)
+sisters=('staten','ansthesia','lilly')
+brothers=('anthony','stefan','mark')
+siblings=sisters + brothers
+print(siblings)
+  print(len(siblings))
+  family=list(siblings)
+print(family)
+family.insert(0,'dad')
+family.insert(1,'mom')
+print(family)
+  parents=family[0:2]
+siblings=family[2:]
+print(parents,siblings)
+  fruits=('apple','banana','mango')
+vegtables=('tomato','potato')
+ani_prod=('meat','milk')
+food_stuff=fruits+vegtables+ani_prod
+print(food_stuff)
+  food_stuff=fruits+vegtables+ani_prod
+print(food_stuff)
+  middle=len(food_stuff)//2
+print(middle)
+print(food_stuff[middle])
+print(food_stuff[0:3])
+print(food_stuff[4:])
+  fruits=('apple','banana','mango')
+vegtables=('tomato','potato')
+ani_prod=('meat','milk')
+food_stuff=fruits+vegtables+ani_prod
+del food_stuff
+fruits=('apple','banana','mango')
+vegtables=('tomato','potato')
+ani_prod=('meat','milk')
+food_stuff=fruits+vegtables+ani_prod
+print('apple' in food_stuff)
+  nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('estonia' in nordic_countries)
+print('Iceland' in nordic_countries)
+
+
+
+
+
+
+
+  
+  
