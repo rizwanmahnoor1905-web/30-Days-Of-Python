@@ -1,0 +1,43 @@
+#day 8 : 30 days python
+  dog={}
+print(dog)
+  dog={
+'name':'tip',
+'breed':'german',
+'legs':2,
+'age':2 
+}
+print(dog)
+student={
+'name':'mahnoor',
+'last_name':'rizwan',
+'gender':'female',
+'age':2,
+'marital_status':'single',
+'skills':['python','c','c++','cad'],
+'country':'pakistan'
+}
+print(student)
+print(len(student))
+  print(student['skills'])
+print(type(student['skills']))
+(student['skills'].append('fusion'))
+print(student)
+  keys=student.keys()
+print(keys)
+  values=student.values()
+print(values)
+  print(tuple((student.items())))
+  (student.pop('marital_status'))
+print(student)
+  del student
+
+
+
+
+
+
+
+
+
+  
