@@ -1,0 +1,34 @@
+#day 7 : 30 days of python
+  it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+print(len(it_companies))
+  it_companies.add('twitter')
+print(it_companies)
+  it_companies.update(['cisco','NVIDIA'])
+print(it_companies)
+  it_companies.remove('twitter')
+print(it_companies)
+  #remove() is used when you waant to not only remove but also check availability of a certain item
+  #discard() only removes a certain item without confirming its availability 
+  #ex-2
+  A = {19, 22, 24, 20, 25, 26}
+B = {19, 22, 20, 25, 26, 24, 28, 27}
+c=A.union(B)
+print(c)
+  C=A.intersection(B)
+print(C)
+  print(A.issubset(B))
+  print(A.isdisjoint(B))
+print(A.symmetric_difference(B))
+  del A
+del B
+  #ex-3
+  age = [22, 19, 24, 25, 26, 24, 25, 24]
+st=set(age)
+print(st)
+  string='I am a teacher and I love to inspire and teach people'
+unique=set(string.split())
+print(unique)
+print(len(unique))
+
+  
+      
