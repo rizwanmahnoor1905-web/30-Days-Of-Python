@@ -1,0 +1,122 @@
+#day9 :30 days of python
+  age=int(input("enter your age"))
+if age>=18:
+    print("you are old enough to drive")
+else:
+    remaining=18 - age
+    print("you need",remaining,'more years to drive')
+  age=int(input('enter your age'))
+my_age=21
+if age>my_age:
+     if (age - my_age) == 1:
+      print("you are 1 year older than me")
+     else:
+       print("you are", age - my_age, "years older than me")
+elif age == my_age:
+    print("we both are age fellows")
+
+else:
+    print("i am older than you")
+a=int(input('enter a number'))
+b=int(input('enter a number'))
+if a>b:
+    print('a is greater than b')
+elif a<b:
+    print('a is smaller than b')
+else:
+    print('both are equal')
+#ex-2
+percent=int(input('emter your percentage to get your grade'))
+if percent>=90:
+    print('your grade is A')
+elif percent>=80 and percent <90:
+    print('your grade is B')
+elif percent>=70 and percent<80:
+    print('your grade is C')
+elif percent>=60 and prcent <70:
+    print('your grade is D')
+else:
+    print('Your grade is F \n Better Luck Next Time')
+    month = input("Enter a month: ").capitalize()
+
+if month in ("September", "October", "November"):
+    print("The season is Autumn.")
+
+elif month in ("December", "January", "February"):
+    print("The season is Winter.")
+
+elif month in ("March", "April", "May"):
+    print("The season is Spring.")
+
+elif month in ("June", "July", "August"):
+    print("The season is Summer.")
+
+else:
+    print("Invalid month! Please enter a valid month name.")
+      fruits = ['banana', 'orange', 'mango', 'lemon']
+add=input('enter the fruit you like')
+if add in fruits:
+    print('your fav fruit exists in the market of list')
+else:
+    fruits.append(add)
+    print('we have added your fav fruit to the list',fruits)
+      #ex-3
+      person={
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_married': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+    }
+if 'skills' in person:
+    middle=len(person['skills'])//2
+    print(person['skills'][middle])
+else:
+    print('skills not present')
+  print('skills' in person)
+if 'Python' in person['skills']:
+    print('Python is found')
+else:
+    print('not found')
+  skills = person['skills']
+
+if (
+    'React' in skills and
+    'Node' in skills and
+    'MongoDB' in skills and
+    'Python' in skills and
+    'JavaScript' in skills
+):
+    print("He is a fullstack developer")
+
+elif 'Node' in skills and 'Python' in skills and 'MongoDB' in skills:
+    print("He is a backend developer")
+
+elif 'JavaScript' in skills and 'React' in skills:
+    print("He is a front end developer")
+
+else:
+    print("Unknown title")
+  if person['is_married'] and person['country'] == 'Finland':
+    print(f"{person['first_name']} {person['last_name']} lives in {person['country']}. He is married.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
