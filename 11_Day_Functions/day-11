@@ -1,0 +1,87 @@
+#day-11 30 days of python
+  #ex-1
+  def add_two_numbers(x,y):
+    return x+y
+print(add_two_numbers(2,4))
+    import math
+def area_circle(r,x):
+    area=math.pi*r*x
+    return area
+print(area_circle(3,5))
+def add_all_num(*args):
+    return sum(args)
+num1=int(input('enter'))
+num2=int(input("enter"))
+num3=int(input('enter'))
+print(add_all_num(num1,num2,num3))
+def cel_to_far(celc):
+    convertion=(celc*9/5)+32
+    return convertion
+cel=int(input("enter the celcius you want to change"))
+print(cel_to_far(cel))
+def season(arg):
+    if arg=='dec'or arg=='jan' or arg=='feb':
+        print("this is winter season")
+    elif arg=='march'or arg=='april' or arg=='may':
+        print("this is spring season")
+    elif arg=='june' or arg=='july' or arg=='aug':
+        print('this is summer season')
+    elif arg=='sep' or arg=='oct' or arg=='nov':
+        print('this is autmn season')
+month=input("enter your current month")
+print(season(month))
+        def slope(*arg):
+    formula=(y2-y1)/(x2-x1)
+    return formula
+x1=int(input('enter x1 value'))
+x2=int(input('enter x2 value'))
+y1=int(input('enter y1 value'))
+y2=int(input('enter y2 value'))
+print(slope(x1,x2,y1,y2))
+      def quad_eq(a,b,c,x):
+    formula=a*x**2+b*x+c
+    return formula
+a=int(input('enter value of a'))
+b=int(input('enter value of b'))
+c=int(input('enter value of c'))
+x=int(input('enter value of x'))
+print(quad_eq(a,b,c,x))
+def print_list(items):
+    if not isinstance(items, list):
+        return "Error: Input must be a list."
+
+    for item in items:
+        print(item)
+
+not_so_dope = [2.3, 5, "six"]
+print_list(not_so_dope)
+          
+      def reverse_list(items):
+    return items[::-1]
+
+print(reverse_list(["A", "B", "C"]))
+        def capitalize_items(dope):
+    dope[0]=dope[0].capitalize()
+    return dope
+print(f"the result is {capitalize_items(['my name is mahnoor'])}")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
