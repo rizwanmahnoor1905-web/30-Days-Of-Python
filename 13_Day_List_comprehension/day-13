@@ -1,0 +1,95 @@
+#day-13: 30n days of python
+  numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+
+negative_numbers = []
+
+for number in numbers:
+    if number <= 0:
+        negative_numbers.append(number)
+
+print(negative_numbers)
+  list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+new_lists = []
+
+for lst in list_of_lists:
+    for item in lst:
+        new_lists.append(item)
+
+print(new_lists)
+countries = [
+    [('Finland', 'Helsinki')],
+    [('Sweden', 'Stockholm')],
+    [('Norway', 'Oslo')]
+]
+
+new_list = []
+
+for country in countries:
+    for name, capital in country:
+        new_list.append([
+            name.upper(),
+            name[:3].upper(),
+            capital.upper()
+        ])
+
+print(new_list)
+  countries = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
+
+new_list = []
+
+for country in countries:
+    for name, capital in country:
+        new_list.append([name, capital])
+
+print(new_list)
+  countries = [
+    [('Finland', 'Helsinki')],
+    [('Sweden', 'Stockholm')],
+    [('Norway', 'Oslo')]
+]
+
+new_list = []
+
+for country in countries:
+    for name, capital in country:
+        new_list.append({
+            "country": name,
+            "capital": capital
+        })
+
+print(new_list)
+  names = [
+    [('Asabeneh', 'Yetayeh')],
+    [('David', 'Smith')],
+    [('Donald', 'Trump')],
+    [('Bill', 'Gates')]
+]
+
+new_name = []
+
+for name in names:
+    for first, last in name:
+        result = " ".join((first, last))
+        new_name.append(result)
+
+print(new_name)
+  slope=lambda x1,x2,y1,y2:(y2+y1)/(x2+x1)
+print(slope(3,4,2,5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
