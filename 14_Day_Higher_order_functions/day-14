@@ -8,4 +8,38 @@ for name in names:
   numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
   for num in numbers:
     print(num)
-  
+  countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def upper(countries):
+    return countries.upper()
+result=map(upper,countries)
+print(list(result))
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def square(num):
+        return num*2
+result=map(square,numbers)
+print(list(result))
+names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+def upper_case(names):
+    return names.upper()
+result=map(upper_case,names)
+print(f"the final result is {list(result)}")
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def land(countries):
+    if 'land' in countries:
+      return countries
+result=filter(land,countries)
+print(list(result))
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def land(countries):
+    if 'E' in countries:
+      return countries
+result=filter(land,countries)
+print(list(result))
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def land(countries):
+        return len(countries) >=6
+result=filter(land,countries)
+print(list(result))
+
+
+
