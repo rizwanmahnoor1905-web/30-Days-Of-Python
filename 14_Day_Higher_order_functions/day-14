@@ -40,6 +40,11 @@ def land(countries):
         return len(countries) >=6
 result=filter(land,countries)
 print(list(result))
+countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
+def land(countries):
+        return len(countries) ==6
+result=filter(land,countries)
+print(list(result)) 
 
 
 
