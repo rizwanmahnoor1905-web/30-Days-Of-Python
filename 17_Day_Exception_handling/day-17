@@ -1,0 +1,11 @@
+# day 17: 30 days of python
+names = ['Finland', 'Sweden', 'Norway','Denmark','Iceland', 'Estonia','Russia']
+fin, swe, nor,den,ice,est,*last=names
+nordic_countries=[fin,swe,den,ice,nor]
+print(nordic_countries)
+es=[est]
+print(es)
+ru=last
+print(last)
+  
+  
