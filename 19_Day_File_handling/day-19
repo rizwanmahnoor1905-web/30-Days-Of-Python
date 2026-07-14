@@ -1,0 +1,30 @@
+import json
+
+def most_populated_countries(filename, n):
+    # Open and load the JSON file
+    with open(filename, 'r', encoding='utf-8') as f:
+        countries = json.load(f)
+
+    # Sort countries by population in descending order
+    sorted_countries = sorted(
+        countries,
+        key=lambda country: country['population'],
+        reverse=True
+    )
+
+    # Create a new list with only country and population
+    result = []
+
+    for country in sorted_countries[:n]:
+        result.append({
+            'country': country['name'],
+            'population': country['population']
+        })
+
+    return result
+
+
+# Test
+print(most_populated_countries('./data/countries_data.json', 10))
+print()
+print(most_populated_countries('./data/countries_data.json', 3))
