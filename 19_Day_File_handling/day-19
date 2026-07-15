@@ -28,3 +28,13 @@ def most_populated_countries(filename, n):
 print(most_populated_countries('./data/countries_data.json', 10))
 print()
 print(most_populated_countries('./data/countries_data.json', 3))
+with open('file.txt','r') as f:
+    text=text.lower()
+    words=text.split()
+frequency={}
+for word in words:
+    frequency[words]=frequency.get(word,0)+1
+most=max(frequency,key=frequency.get())
+print(frequency)
+print(most)
+    
