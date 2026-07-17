@@ -16,3 +16,4 @@ ages=stat([31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 3
 print(f'mean {ages.mean()}')
 ages.maxi()
 print(f'variance {ages.var()}')
+
