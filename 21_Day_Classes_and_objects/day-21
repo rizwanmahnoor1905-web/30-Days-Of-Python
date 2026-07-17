@@ -1,0 +1,18 @@
+#day-21 30 days of python
+  import statistics
+class stat:
+    def __init__(self,numbers):
+      self.data=numbers
+    def mean(self):
+      return sum(self.data)/len(self.data)
+    def maxi(self):
+        largest=max(self.data)
+        print(f'max number {largest}')
+    def var(self):
+      result=statistics.variance(self.data )
+      return result
+ages=stat([31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
+)
+print(f'mean {ages.mean()}')
+ages.maxi()
+print(f'variance {ages.var()}')
