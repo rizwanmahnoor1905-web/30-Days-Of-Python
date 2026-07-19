@@ -1,0 +1,14 @@
+import json
+loads=[]
+with open("countries.json","r",encoding="utf-8") as f:
+    cats=json.load(f)
+    for cat in cats:
+     weights=cat["weight"]["metric"]
+     low,high=weights.split("-")
+     lows=int(low.strip())
+     highs=int(high.strip())
+     average=(lows+highs)/2
+     loads.append(average)
+mean=sum(loads)/len(loads)
+print(mean)
+
