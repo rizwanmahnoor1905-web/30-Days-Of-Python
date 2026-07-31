@@ -1,0 +1,17 @@
+import requests
+from bs4 import BeautifulSoup
+import json
+
+url = "https://www.bu.edu/president/boston-university-facts-stats/"
+
+response = requests.get(url)
+soup = BeautifulSoup(response.content, "html.parser")
+
+data = {
+    "title": soup.title.get_text(strip=True)
+}
+
+with open("page_data.json", "w") as file:
+    json.dump(data, file, indent=4)
+
+print("JSON file created!")
